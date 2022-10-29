@@ -7,6 +7,7 @@ import com.framework.pages.LoginPage;
 public class LoginTestSwag extends BaseClass{
 	@Test
 	public void loginapp() {
+		System.out.println("Loginto saucedemo");
 		logger=report.createTest("Login to saucedemo");
 		LoginPage logap=PageFactory.initElements(driver,LoginPage.class);
 		logger.info("Starting Application");
